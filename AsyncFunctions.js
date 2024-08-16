@@ -42,4 +42,11 @@ async function rainbow() {
   await delayedColorChange('indigo',1000);
   return 'All done'
 }
-rainbow().then(()=> console.log('thats is now end of the rainbow!'))
+//rainbow().then(()=> console.log('thats is now end of the rainbow!'))
+
+async function printRainBow(){
+  await rainbow();
+  console.log('thats now the end of the rainbow!');
+  
+}
+printRainBow()
