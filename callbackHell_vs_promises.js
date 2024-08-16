@@ -52,14 +52,3 @@ delayedColorChange('red',1000)
 .then(()=>delayedColorChange('blue',1000))
 .then(()=>delayedColorChange('purple',1000))
     
-
-// searchMovieAPI("amadeus", () => {
-//     saveToMyDB(movies,() => {
-//         //if it works,run this code
-//       },
-//       () => {
-//         //if it doesn't work,run this code
-//       });
-//   }, () => {
-//     //if API is down,or request fails
-//   });
