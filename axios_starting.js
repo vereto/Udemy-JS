@@ -11,7 +11,7 @@ const getStarWarsPerson = async (id) => {
     console.log(res.data);
         
     } catch (error) {
-        console.log('ERROR');
+        console.log(error);
         
     }
    
