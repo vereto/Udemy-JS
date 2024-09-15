@@ -4,7 +4,7 @@ function makeColor(r,g,b) {
     color.g= g;
     color.b = b;
     color.rgb = function () {
-        const {r, g, b} = this;
+        const {r, g, b} = this;                                      
         return `rgb(${r}, ${g}, ${b})`;
     }
     color.hex = function () {
